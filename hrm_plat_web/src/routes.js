@@ -4,8 +4,8 @@ import NotFound from './views/404.vue'
 import Home from './views/Home.vue'
 import Main from './views/Main.vue'
 import CourseType from './views/course/CourseType'
-import Department from './views/itsource/department.vue'
-import Role from './views/itsource/role.vue'
+import Tenant from './views/tenant/tenant.vue'
+import TenantType from './views/tenant/tenantType.vue'
 import Form from './views/nav1/Form.vue'
 import user from './views/nav1/user.vue'
 import Page4 from './views/nav2/Page4.vue'
@@ -46,14 +46,13 @@ let routes = [
     {
         path: '/',
         component: Home,
-        name: '组织机构管理',
+        name: '机构管理',
         iconCls: 'el-icon-message',//图标样式class
         children: [
-            { path: '/department', component: Department, name: '部门管理' },
-            { path: '/role', component: Role, name: '角色管理' }
+            { path: '/tenantType', component: TenantType, name: '机构类型' },
+            { path: '/tenant', component: Tenant, name: '机构管理' },
         ]
-    }
-    ,
+    },
     {
         path: '/',
         component: Home,
