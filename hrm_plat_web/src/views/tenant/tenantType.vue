@@ -29,16 +29,16 @@
 			<!--其他都设置值,只有一个不设置值就自动适应了-->
 			<el-table-column prop="name" label="名称">
 			</el-table-column>
-			<el-table-column prop="logo" label="图标">
-			</el-table-column>
-			<el-table-column prop="path" label="路径">
-			</el-table-column>
-			<el-table-column prop="createTime" label="创建时间">
-			</el-table-column>
-			<el-table-column prop="updateTime" label="更新时间">
-			</el-table-column>
-			<el-table-column prop="parent.name" label="父类型">
-			</el-table-column>
+<!--			<el-table-column prop="logo" label="图标">-->
+<!--			</el-table-column>-->
+<!--			<el-table-column prop="path" label="路径">-->
+<!--			</el-table-column>-->
+<!--			<el-table-column prop="createTime" label="创建时间">-->
+<!--			</el-table-column>-->
+<!--			<el-table-column prop="updateTime" label="更新时间">-->
+<!--			</el-table-column>-->
+<!--			<el-table-column prop="parent.name" label="父类型">-->
+<!--			</el-table-column>-->
 			<el-table-column prop="description" label="描述">
 			</el-table-column>
 			<el-table-column label="操作" width="150">

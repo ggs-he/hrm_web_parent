@@ -4,6 +4,7 @@ import NotFound from './views/404.vue'
 import Home from './views/Home.vue'
 import Main from './views/Main.vue'
 import CourseType from './views/course/CourseType'
+import Course from './views/course/Course'
 import Tenant from './views/tenant/tenant.vue'
 import TenantType from './views/tenant/tenantType.vue'
 import Form from './views/nav1/Form.vue'
@@ -60,7 +61,7 @@ let routes = [
         iconCls: 'el-icon-message',//图标样式class
         children: [
             { path: '/courseType', component: CourseType, name: '课程类型' },
-            { path: '/course', component: Form, name: '课程' },
+            { path: '/course', component: Course, name: '课程' },
             { path: '/user', component: user, name: '列表' },
         ]
     },
